@@ -11,15 +11,15 @@
     <h1>Horários e dia do games dos <abbr title="Muita fé">MTF</abbr> &#x1F3AD</h1>
     <main>
         <section>
-            <form action="goti.html" method="post" autocomplete="on">
+            <form action="goti.php" method="post" autocomplete="on">
             
                 <div class="cadastro">
                     <label for="inome">Nome:</label>
-                    <input type="text" name="nome" id="inome" placeholder="MTF nick name">
+                    <input type="text" name="nome" id="inome" placeholder="MTF nick name" required min="3" maxlength="15">
                 </div>
                 <div class="cadastro">
                     <label for="ijogos">Jogos</label>
-                    <select name="jogos" id="ijogos">
+                    <select name="jogos" id="ijogos" required>
                         <option value="">--Selecione um Jogo</option>
                         <option value="jogo1">Valorant</option>
                         <option value="jogo2">LoL</option>
@@ -28,12 +28,12 @@
                 </div>
                 <div class="cadastro">
                     <label for="idia">Dia/Mês/Ano</label>
-                    <input type="date" name="dia" id="idia">
+                    <input type="date" name="dia" id="idia" required>
                 </div>
                 <div class="cadastro">
                     <label for="ihora">Horário:</label>
                     <br>
-                    <input type="time" name="hora" id="ihora">
+                    <input type="time" name="hora" id="ihora" required>
                 </div>
                 <div class="enviar">
                     <button type="button">
