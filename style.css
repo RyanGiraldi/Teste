@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: gray url(fundo-hexagonal-escuro-com-cor-de-gradiente_79603-1409.avif) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 200px;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+abbr  {
+    text-decoration: none;
+}
+
+input {
+    padding: 4px;
+}
+
+.cadastro {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+div.enviar {
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+}
+
+
+
